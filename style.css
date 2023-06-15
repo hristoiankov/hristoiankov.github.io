@@ -28,13 +28,16 @@ body {
 }
 
 .content .projects a div {
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
+    width: 140px;
+    height: 140px;
     border: 2px solid #5a4941;
     border-radius: 150px;
     background-size: cover;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .github {
@@ -51,6 +54,9 @@ body {
 }
 .balkan-fables {
     background-image: url(assets/balkan-fables.png);
+}
+.likely-intelligent {
+    background-image: url(assets/likely-intelligent.png);
 }
 
 .footer {
