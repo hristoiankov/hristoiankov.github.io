@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0d0c4;
+    color: #ad948b;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content .projects a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff9f6;
+    text-shadow: 0px 1px 10px black;
+}
+
+.content .projects a div {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border: 2px solid #5a4941;
+    border-radius: 150px;
+    background-size: cover;
+    text-align: center;
+}
+
+.github {
+    background-image: url(https://avatars.githubusercontent.com/u/35353708?v=4);
+}
+.cider {
+    background-image: url(assets/cider.png);
+}
+.oatear {
+    background-image: url(assets/oatear.png);
+}
+.cosmic-apple {
+    background-image: url(assets/cosmic-apple.png);
+}
+.balkan-fables {
+    background-image: url(assets/balkan-fables.png);
+}
+
+.footer {
+    margin-top: 20px;
+}
