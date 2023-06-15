@@ -1,7 +1,10 @@
 body {
+    min-width: 300px;
     font-family: sans-serif;
-    background-color: #e0d0c4;
-    color: #ad948b;
+    font-size: 20px;
+    color: #88746d;
+    background-color: #ad948b;
+    background-image: url("assets/cloth-alike.png");
 }
 
 .content {
@@ -61,4 +64,21 @@ body {
 
 .footer {
     margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        height: auto;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .content .projects a {
+        font-size: 30px;
+    }
+    .content .projects a div {
+        width: 240px;
+        height: 240px;
+        padding: 10px;
+    }
 }
