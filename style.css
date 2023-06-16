@@ -30,8 +30,8 @@ body {
 }
 
 .content .projects a div {
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
     border: 2px solid #5a4941;
     border-radius: 150px;
     background-size: cover;
@@ -52,6 +52,11 @@ body {
 
 .content .projects a div:hover {
     border-color: #42352f;
+}
+.content .projects a div:hover span {
+    color: #0a0808;
+    background-color: #332a26;
+    color: #ccab9e;
 }
 
 .github {
