@@ -83,6 +83,12 @@ body {
 .web-console {
     background-image: url(assets/web-console.png);
 }
+.thingiverse {
+    background-image: url(assets/thingiverse.png);
+}
+.astrobin {
+    background-image: url(assets/astrobin.png);
+}
 
 .footer {
     margin-top: 20px;
